@@ -1,0 +1,800 @@
+2020-09-28 | 00:02:09.311 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 11484 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 00:02:09.369 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 00:02:09.456 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36b4091c: startup date [Mon Sep 28 00:02:09 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:02:11.705 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee6d4e7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 00:02:12.538 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 00:02:12.557 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:02:12.581 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 00:02:12.582 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 00:02:12.592 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 00:02:12.774 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 00:02:12.774 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 3318 ms
+2020-09-28 | 00:02:15.241 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 00:02:15.242 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 00:02:15.242 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 00:02:15.242 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 00:02:15.242 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 00:02:15.242 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 00:02:15.242 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 00:02:15.384 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 00:02:16.313 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 00:02:16.409 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:02:16.445 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 00:02:16.672 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 00:02:16.677 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 00:02:16.747 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 00:02:16.912 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 00:02:17.741 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 00:02:17.744 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2fd39436
+2020-09-28 | 00:02:18.764 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:02:19.662 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:02:20.719 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36b4091c: startup date [Mon Sep 28 00:02:09 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:02:20.817 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 00:02:20.981 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.HelloController.index()
+2020-09-28 | 00:02:20.985 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.HelloController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 00:02:20.985 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.HelloController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 00:02:20.985 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.entities.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.HelloController.getAllCitizenDetail(int,int)
+2020-09-28 | 00:02:20.986 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.HelloController.postCitizenDetail(com.citizen.entities.CitizenModel)
+2020-09-28 | 00:02:20.986 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen/{id}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.HelloController.updateCitizenDetail(com.citizen.entities.CitizenModel,java.lang.Long)
+2020-09-28 | 00:02:20.989 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 00:02:20.990 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:02:21.048 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:02:21.049 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:02:21.088 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 00:02:22.296 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 00:02:22.320 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:02:22.323 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:02:22.324 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:02:22.425 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 00:02:22.427 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 00:02:22.442 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 00:02:22.464 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:02:22.669 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 00:02:22.756 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 00:02:22.761 | main |  INFO | com.citizen.Application | Started Application in 14.155 seconds (JVM running for 18.088)
+2020-09-28 | 00:02:36.825 | http-nio-8080-exec-2 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 00:02:36.825 | http-nio-8080-exec-2 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 00:02:36.979 | http-nio-8080-exec-2 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 154 ms
+2020-09-28 | 00:02:37.226 | http-nio-8080-exec-2 |  INFO | c.c.c.HelloController | In getAllCitizenDetail
+2020-09-28 | 00:02:41.290 | RxCachedThreadScheduler-1 |  INFO | o.h.h.i.QueryTranslatorFactoryInitiator | HHH000397: Using ASTQueryTranslatorFactory
+2020-09-28 | 00:07:38.660 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 19400 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 00:07:38.665 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 00:07:38.714 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1583741e: startup date [Mon Sep 28 00:07:38 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:07:40.449 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c2f56b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 00:07:40.960 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 00:07:40.973 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:07:40.983 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 00:07:40.984 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 00:07:40.989 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 00:07:41.362 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 00:07:41.363 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2650 ms
+2020-09-28 | 00:07:42.418 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 00:07:42.419 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 00:07:42.419 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 00:07:42.420 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 00:07:42.420 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 00:07:42.421 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 00:07:42.422 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 00:07:42.568 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 00:07:44.248 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 00:07:44.309 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:07:44.323 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 00:07:44.431 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 00:07:44.433 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 00:07:44.486 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 00:07:44.690 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 00:07:45.207 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 00:07:45.210 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1b37fbec
+2020-09-28 | 00:07:45.933 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:07:46.497 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:07:48.191 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1583741e: startup date [Mon Sep 28 00:07:38 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:07:48.276 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 00:07:48.346 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.HelloController.index()
+2020-09-28 | 00:07:48.350 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.HelloController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 00:07:48.351 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.entities.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.HelloController.getAllCitizenDetail(int,int)
+2020-09-28 | 00:07:48.352 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen/{id}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.HelloController.updateCitizenDetail(com.citizen.entities.CitizenModel,java.lang.Long)
+2020-09-28 | 00:07:48.353 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.HelloController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 00:07:48.355 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.HelloController.postCitizenDetail(com.citizen.entities.CitizenModel)
+2020-09-28 | 00:07:48.358 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 00:07:48.359 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:07:48.419 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:07:48.420 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:07:48.458 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 00:07:49.312 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 00:07:49.329 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:07:49.330 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:07:49.331 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:07:49.400 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 00:07:49.400 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 00:07:49.408 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 00:07:49.424 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:07:49.576 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 00:07:49.629 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 00:07:49.639 | main |  INFO | com.citizen.Application | Started Application in 11.505 seconds (JVM running for 13.535)
+2020-09-28 | 00:08:08.121 | http-nio-8080-exec-2 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 00:08:08.123 | http-nio-8080-exec-2 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 00:08:08.310 | http-nio-8080-exec-2 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 187 ms
+2020-09-28 | 00:08:08.565 | http-nio-8080-exec-2 |  INFO | c.c.c.HelloController | In getAllCitizenDetail
+2020-09-28 | 00:08:09.379 | RxCachedThreadScheduler-1 |  INFO | o.h.h.i.QueryTranslatorFactoryInitiator | HHH000397: Using ASTQueryTranslatorFactory
+2020-09-28 | 00:40:05.053 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 17472 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 00:40:05.059 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 00:40:05.120 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@432038ec: startup date [Mon Sep 28 00:40:05 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:40:06.932 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c959c963] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 00:40:07.479 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 00:40:07.494 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:40:07.507 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 00:40:07.508 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 00:40:07.516 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 00:40:07.669 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 00:40:07.669 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2549 ms
+2020-09-28 | 00:40:08.870 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 00:40:08.871 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 00:40:08.871 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 00:40:08.871 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 00:40:08.871 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 00:40:08.872 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 00:40:08.872 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 00:40:08.999 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 00:40:09.190 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 00:40:09.268 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:40:09.296 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 00:40:09.496 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 00:40:09.498 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 00:40:09.599 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 00:40:09.872 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 00:40:10.109 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 00:40:10.111 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@16d431b4
+2020-09-28 | 00:40:11.349 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:40:11.931 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:40:12.373 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@432038ec: startup date [Mon Sep 28 00:40:05 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:40:12.426 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 00:40:12.494 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 00:40:12.499 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 00:40:12.500 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen/{id}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel,java.lang.Long)
+2020-09-28 | 00:40:12.501 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 00:40:12.502 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 00:40:12.503 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 00:40:12.510 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 00:40:12.511 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:40:12.594 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:40:12.594 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:40:12.631 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 00:40:13.333 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 00:40:13.355 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:40:13.357 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:40:13.359 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:40:13.467 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 00:40:13.470 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 00:40:13.480 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 00:40:13.499 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:40:13.513 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 00:40:13.588 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 00:40:13.597 | main |  INFO | com.citizen.Application | Started Application in 9.316 seconds (JVM running for 11.077)
+2020-09-28 | 00:40:58.142 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 21756 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 00:40:58.150 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 00:40:58.211 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@48e92c5c: startup date [Mon Sep 28 00:40:58 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:41:00.006 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$925ca6e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 00:41:00.569 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 00:41:00.584 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:41:00.596 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 00:41:00.597 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 00:41:00.604 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 00:41:00.746 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 00:41:00.746 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2535 ms
+2020-09-28 | 00:41:01.894 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 00:41:01.895 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 00:41:01.895 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 00:41:01.895 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 00:41:01.895 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 00:41:01.895 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 00:41:01.895 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 00:41:02.006 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 00:41:02.177 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 00:41:02.245 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:41:02.261 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 00:41:02.408 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 00:41:02.412 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 00:41:02.503 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 00:41:02.774 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 00:41:02.976 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 00:41:02.978 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@27a9f025
+2020-09-28 | 00:41:03.701 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:41:04.304 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:41:04.707 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@48e92c5c: startup date [Mon Sep 28 00:40:58 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:41:04.751 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 00:41:04.800 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 00:41:04.803 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 00:41:04.804 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 00:41:04.804 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 00:41:04.805 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen/{id}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel,java.lang.Long)
+2020-09-28 | 00:41:04.805 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 00:41:04.809 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 00:41:04.810 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:41:04.852 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:41:04.852 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:41:04.876 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 00:41:05.503 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 00:41:05.520 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:41:05.522 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:41:05.523 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:41:05.624 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 00:41:05.625 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 00:41:05.636 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 00:41:05.654 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:41:05.667 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 00:41:05.699 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 00:41:05.705 | main |  INFO | com.citizen.Application | Started Application in 8.211 seconds (JVM running for 9.669)
+2020-09-28 | 00:41:46.930 | http-nio-8080-exec-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 00:41:46.930 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 00:41:47.203 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 273 ms
+2020-09-28 | 00:41:47.604 | http-nio-8080-exec-1 |  INFO | c.c.c.CitizenController | In createCitizen
+2020-09-28 | 00:43:13.004 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 6516 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 00:43:13.094 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 00:43:13.168 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@177bea38: startup date [Mon Sep 28 00:43:13 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:43:15.808 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4bd58a4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 00:43:16.540 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 00:43:16.563 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:43:16.579 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 00:43:16.580 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 00:43:16.592 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 00:43:16.867 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 00:43:16.867 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 3699 ms
+2020-09-28 | 00:43:18.814 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 00:43:18.815 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 00:43:18.815 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 00:43:18.815 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 00:43:18.815 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 00:43:18.815 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 00:43:18.815 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 00:43:18.956 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 00:43:19.150 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 00:43:19.312 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:43:19.362 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 00:43:19.627 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 00:43:19.629 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 00:43:19.731 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 00:43:20.014 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 00:43:20.254 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 00:43:20.257 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1788cb61
+2020-09-28 | 00:43:21.314 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:43:22.052 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:43:22.490 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@177bea38: startup date [Mon Sep 28 00:43:13 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:43:22.559 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 00:43:22.615 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 00:43:22.619 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 00:43:22.619 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 00:43:22.620 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 00:43:22.620 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen/{id}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel,java.lang.Long)
+2020-09-28 | 00:43:22.621 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 00:43:22.625 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 00:43:22.626 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:43:22.679 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:43:22.679 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:43:22.712 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 00:43:23.449 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 00:43:23.473 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:43:23.474 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:43:23.477 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:43:23.568 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 00:43:23.570 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 00:43:23.581 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 00:43:23.600 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:43:23.615 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 00:43:23.643 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 00:43:23.651 | main |  INFO | com.citizen.Application | Started Application in 11.25 seconds (JVM running for 14.339)
+2020-09-28 | 00:44:26.795 | http-nio-8080-exec-3 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 00:44:26.796 | http-nio-8080-exec-3 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 00:44:26.840 | http-nio-8080-exec-3 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2020-09-28 | 00:44:27.116 | http-nio-8080-exec-3 |  INFO | c.c.c.CitizenController | In createCitizen
+2020-09-28 | 00:45:00.735 | http-nio-8080-exec-4 |  INFO | c.c.c.CitizenController | In createCitizen
+2020-09-28 | 00:45:39.340 | http-nio-8080-exec-6 |  INFO | c.c.c.CitizenController | In getAllCitizenDetail
+2020-09-28 | 00:45:40.008 | RxCachedThreadScheduler-1 |  INFO | o.h.h.i.QueryTranslatorFactoryInitiator | HHH000397: Using ASTQueryTranslatorFactory
+2020-09-28 | 00:47:06.892 | http-nio-8080-exec-9 |  INFO | c.c.c.CitizenController | In UpdateCitizen
+2020-09-28 | 00:47:25.961 | http-nio-8080-exec-9 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [javax.persistence.EntityNotFoundException: Not Found ID:352]
+2020-09-28 | 00:47:58.274 | http-nio-8080-exec-8 |  INFO | c.c.c.CitizenController | In UpdateCitizen
+2020-09-28 | 00:53:46.900 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 19200 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 00:53:46.904 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 00:53:46.950 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1583741e: startup date [Mon Sep 28 00:53:46 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:53:48.522 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a453be2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 00:53:48.986 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 00:53:49.000 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:53:49.012 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 00:53:49.012 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 00:53:49.021 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 00:53:49.165 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 00:53:49.165 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2215 ms
+2020-09-28 | 00:53:50.181 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 00:53:50.182 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 00:53:50.182 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 00:53:50.182 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 00:53:50.182 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 00:53:50.182 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 00:53:50.182 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 00:53:50.287 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 00:53:50.436 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 00:53:50.487 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:53:50.503 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 00:53:50.617 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 00:53:50.620 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 00:53:50.681 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 00:53:50.883 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 00:53:51.132 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 00:53:51.135 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@bb3ecfe
+2020-09-28 | 00:53:52.080 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:53:52.539 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:53:52.882 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1583741e: startup date [Mon Sep 28 00:53:46 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:53:52.923 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 00:53:52.965 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 00:53:52.968 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 00:53:52.968 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 00:53:52.969 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 00:53:52.969 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen/{id}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 00:53:52.969 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 00:53:52.971 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 00:53:52.972 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:53:53.011 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:53:53.011 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:53:53.041 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 00:53:53.587 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 00:53:53.602 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:53:53.603 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:53:53.604 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:53:53.668 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 00:53:53.670 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 00:53:53.677 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 00:53:53.692 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:53:53.723 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 00:53:53.755 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 00:53:53.761 | main |  INFO | com.citizen.Application | Started Application in 7.374 seconds (JVM running for 8.58)
+2020-09-28 | 00:55:43.468 | http-nio-8080-exec-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 00:55:43.469 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 00:55:43.538 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 69 ms
+2020-09-28 | 00:55:44.326 | http-nio-8080-exec-1 |  INFO | c.c.c.CitizenController | In createCitizen
+2020-09-28 | 00:59:02.569 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 18808 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 00:59:02.574 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 00:59:02.621 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73d983ea: startup date [Mon Sep 28 00:59:02 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:59:04.201 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$83ae15ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 00:59:04.659 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 00:59:04.672 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:59:04.683 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 00:59:04.683 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 00:59:04.688 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 00:59:05.053 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 00:59:05.053 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2432 ms
+2020-09-28 | 00:59:06.076 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 00:59:06.076 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 00:59:06.077 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 00:59:06.077 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 00:59:06.077 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 00:59:06.077 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 00:59:06.077 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 00:59:06.204 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 00:59:06.335 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 00:59:06.390 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:59:06.405 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 00:59:06.530 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 00:59:06.534 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 00:59:06.600 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 00:59:06.817 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 00:59:07.029 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 00:59:07.032 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5a05dd30
+2020-09-28 | 00:59:07.751 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 00:59:08.178 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:59:08.477 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73d983ea: startup date [Mon Sep 28 00:59:02 BRT 2020]; root of context hierarchy
+2020-09-28 | 00:59:08.515 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 00:59:08.557 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 00:59:08.560 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 00:59:08.560 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen/{id}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 00:59:08.561 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 00:59:08.562 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 00:59:08.562 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 00:59:08.564 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 00:59:08.565 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:59:08.602 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:59:08.602 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 00:59:08.626 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 00:59:09.168 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 00:59:09.185 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:59:09.186 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 00:59:09.187 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 00:59:09.269 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 00:59:09.271 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 00:59:09.288 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 00:59:09.312 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 00:59:09.328 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 00:59:09.366 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 00:59:09.372 | main |  INFO | com.citizen.Application | Started Application in 7.858 seconds (JVM running for 9.444)
+2020-09-28 | 00:59:24.713 | http-nio-8080-exec-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 00:59:24.714 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 00:59:24.753 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2020-09-28 | 00:59:24.887 | http-nio-8080-exec-1 |  INFO | c.c.c.CitizenController | In createCitizen
+2020-09-28 | 01:00:49.788 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 13664 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 01:00:49.792 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 01:00:49.837 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4671115f: startup date [Mon Sep 28 01:00:49 BRT 2020]; root of context hierarchy
+2020-09-28 | 01:00:51.546 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$586dd790] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 01:00:52.061 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 01:00:52.080 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 01:00:52.095 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 01:00:52.096 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 01:00:52.102 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 01:00:52.298 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 01:00:52.298 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2461 ms
+2020-09-28 | 01:00:53.308 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 01:00:53.309 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 01:00:53.309 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 01:00:53.309 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 01:00:53.309 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 01:00:53.310 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 01:00:53.310 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 01:00:53.405 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 01:00:53.525 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 01:00:53.583 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 01:00:53.597 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 01:00:53.716 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 01:00:53.719 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 01:00:53.803 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 01:00:53.975 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 01:00:54.199 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 01:00:54.202 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3fde2209
+2020-09-28 | 01:00:54.936 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 01:00:55.357 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:00:55.667 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4671115f: startup date [Mon Sep 28 01:00:49 BRT 2020]; root of context hierarchy
+2020-09-28 | 01:00:55.703 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 01:00:55.768 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 01:00:55.772 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 01:00:55.773 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 01:00:55.774 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 01:00:55.774 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 01:00:55.775 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 01:00:55.779 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 01:00:55.779 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 01:00:55.825 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:00:55.825 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:00:55.848 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 01:00:56.441 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 01:00:56.461 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 01:00:56.463 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 01:00:56.464 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 01:00:56.548 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 01:00:56.550 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 01:00:56.582 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 01:00:56.596 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 01:00:56.607 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 01:00:56.632 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 01:00:56.638 | main |  INFO | com.citizen.Application | Started Application in 7.441 seconds (JVM running for 8.65)
+2020-09-28 | 01:01:00.556 | http-nio-8080-exec-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 01:01:00.557 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 01:01:00.605 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+2020-09-28 | 01:01:00.790 | http-nio-8080-exec-1 |  INFO | c.c.c.CitizenController | In UpdateCitizen
+2020-09-28 | 01:02:13.562 | http-nio-8080-exec-5 |  INFO | c.c.c.CitizenController | In UpdateCitizen
+2020-09-28 | 01:09:07.366 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 22084 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 01:09:08.179 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 01:09:08.262 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6f44a157: startup date [Mon Sep 28 01:09:08 BRT 2020]; root of context hierarchy
+2020-09-28 | 01:09:10.246 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7bbece4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 01:09:10.868 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 01:09:10.883 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 01:09:10.893 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 01:09:10.893 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 01:09:10.900 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 01:09:11.051 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 01:09:11.051 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2790 ms
+2020-09-28 | 01:09:12.095 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 01:09:12.096 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 01:09:12.097 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 01:09:12.097 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 01:09:12.097 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 01:09:12.097 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 01:09:12.097 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 01:09:12.222 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 01:09:12.472 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 01:09:12.534 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 01:09:12.553 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 01:09:12.684 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 01:09:12.688 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 01:09:12.741 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 01:09:12.938 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 01:09:13.199 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 01:09:13.203 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1e226bcd
+2020-09-28 | 01:09:13.873 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 01:09:14.293 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:09:14.573 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6f44a157: startup date [Mon Sep 28 01:09:08 BRT 2020]; root of context hierarchy
+2020-09-28 | 01:09:14.611 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 01:09:14.652 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 01:09:14.654 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 01:09:14.654 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 01:09:14.655 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 01:09:14.655 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 01:09:14.655 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 01:09:14.657 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 01:09:14.658 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 01:09:14.695 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:09:14.695 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:09:14.724 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 01:09:15.298 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 01:09:15.314 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 01:09:15.315 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 01:09:15.316 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 01:09:15.380 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 01:09:15.382 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 01:09:15.390 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 01:09:15.405 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 01:09:15.415 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 01:09:15.440 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 01:09:15.445 | main |  INFO | com.citizen.Application | Started Application in 8.753 seconds (JVM running for 10.188)
+2020-09-28 | 01:09:24.558 | http-nio-8080-exec-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 01:09:24.559 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 01:09:24.606 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2020-09-28 | 01:09:24.775 | http-nio-8080-exec-1 |  INFO | c.c.c.CitizenController | In UpdateCitizen
+2020-09-28 | 01:09:24.800 | http-nio-8080-exec-1 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Failed to invoke @ExceptionHandler method: public final org.springframework.http.ResponseEntity<java.lang.Object> com.citizen.exception.CustomExceptionHandler.customerGenericException(java.lang.String)
+java.lang.IllegalStateException: Could not resolve method parameter at index 0 in public final org.springframework.http.ResponseEntity<java.lang.Object> com.citizen.exception.CustomExceptionHandler.customerGenericException(java.lang.String): No suitable resolver for argument 0 of type 'java.lang.String'
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:175)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:131)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:404)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:78)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1255)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1062)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-28 | 01:09:24.816 | http-nio-8080-exec-1 |  WARN | o.s.w.s.m.a.ResponseStatusExceptionResolver | Resolved [com.citizen.exception.CustomerGenericException: please enter CitizenID]
+2020-09-28 | 01:13:50.461 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 19796 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 01:13:50.466 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 01:13:50.515 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f57bcad: startup date [Mon Sep 28 01:13:50 BRT 2020]; root of context hierarchy
+2020-09-28 | 01:13:51.989 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6595898c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 01:13:52.448 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 01:13:52.461 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 01:13:52.471 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 01:13:52.472 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 01:13:52.477 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 01:13:52.604 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 01:13:52.604 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2089 ms
+2020-09-28 | 01:13:53.571 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 01:13:53.571 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 01:13:53.571 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 01:13:53.572 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 01:13:53.572 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 01:13:53.572 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 01:13:53.572 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 01:13:53.665 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 01:13:53.800 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 01:13:53.856 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 01:13:53.870 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 01:13:53.987 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 01:13:53.990 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 01:13:54.082 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 01:13:54.329 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 01:13:54.471 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 01:13:54.474 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5b02a984
+2020-09-28 | 01:13:55.137 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 01:13:55.548 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:13:55.863 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f57bcad: startup date [Mon Sep 28 01:13:50 BRT 2020]; root of context hierarchy
+2020-09-28 | 01:13:55.900 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 01:13:55.941 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 01:13:55.944 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 01:13:55.944 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 01:13:55.944 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 01:13:55.945 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 01:13:55.945 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 01:13:55.948 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 01:13:55.949 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 01:13:55.985 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:13:55.985 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:13:56.007 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 01:13:56.562 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 01:13:56.579 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 01:13:56.581 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 01:13:56.582 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 01:13:56.651 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 01:13:56.652 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 01:13:56.662 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 01:13:56.677 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 01:13:56.690 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 01:13:56.716 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 01:13:56.722 | main |  INFO | com.citizen.Application | Started Application in 6.813 seconds (JVM running for 8.037)
+2020-09-28 | 01:14:17.277 | http-nio-8080-exec-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 01:14:17.277 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 01:14:17.322 | http-nio-8080-exec-1 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms
+2020-09-28 | 01:14:17.483 | http-nio-8080-exec-1 |  INFO | c.c.c.CitizenController | In UpdateCitizen
+2020-09-28 | 01:14:17.490 | http-nio-8080-exec-1 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Failed to invoke @ExceptionHandler method: public final org.springframework.http.ResponseEntity<java.lang.Object> com.citizen.exception.CustomExceptionHandler.customerGenericException(java.lang.String)
+java.lang.IllegalStateException: Could not resolve method parameter at index 0 in public final org.springframework.http.ResponseEntity<java.lang.Object> com.citizen.exception.CustomExceptionHandler.customerGenericException(java.lang.String): No suitable resolver for argument 0 of type 'java.lang.String'
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:175)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:131)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:404)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:78)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1255)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1062)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-28 | 01:14:17.493 | http-nio-8080-exec-1 |  WARN | o.s.w.s.m.a.ResponseStatusExceptionResolver | Resolved [com.citizen.exception.CustomerGenericException: please enter CitizenID]
+2020-09-28 | 01:26:59.186 | main |  INFO | com.citizen.Application | Starting Application on DESKTOP-4KS8J90 with PID 13240 (C:\Users\Dell\Downloads\gs-spring-boot-master\complete\target\classes started by Dell in C:\Users\Dell\Downloads\gs-spring-boot-master\complete)
+2020-09-28 | 01:26:59.190 | main |  INFO | com.citizen.Application | No active profile set, falling back to default profiles: default
+2020-09-28 | 01:26:59.239 | main |  INFO | o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext | Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71e9ebae: startup date [Mon Sep 28 01:26:59 BRT 2020]; root of context hierarchy
+2020-09-28 | 01:27:00.995 | main |  INFO | o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6595898c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-28 | 01:27:01.472 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+2020-09-28 | 01:27:01.487 | main |  INFO | o.a.c.h.Http11NioProtocol | Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 01:27:01.497 | main |  INFO | o.a.c.c.StandardService | Starting service [Tomcat]
+2020-09-28 | 01:27:01.498 | main |  INFO | o.a.c.core.StandardEngine | Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-09-28 | 01:27:01.504 | localhost-startStop-1 |  INFO | o.a.c.c.AprLifecycleListener | The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\app\Dell\product\11.2.0\dbhome_2\bin;C:\app\Dell\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dell\Documents\sts-4.0.1.RELEASE;;.]
+2020-09-28 | 01:27:01.644 | localhost-startStop-1 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring embedded WebApplicationContext
+2020-09-28 | 01:27:01.645 | localhost-startStop-1 |  INFO | o.s.w.c.ContextLoader | Root WebApplicationContext: initialization completed in 2406 ms
+2020-09-28 | 01:27:02.682 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-28 | 01:27:02.682 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-09-28 | 01:27:02.682 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-28 | 01:27:02.682 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-28 | 01:27:02.683 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-28 | 01:27:02.683 | localhost-startStop-1 |  INFO | o.s.b.w.s.FilterRegistrationBean | Mapping filter: 'httpTraceFilter' to: [/*]
+2020-09-28 | 01:27:02.683 | localhost-startStop-1 |  INFO | o.s.b.w.s.ServletRegistrationBean | Servlet dispatcherServlet mapped to [/]
+2020-09-28 | 01:27:02.782 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Starting...
+2020-09-28 | 01:27:02.907 | main |  INFO | c.z.h.HikariDataSource | HikariPool-1 - Start completed.
+2020-09-28 | 01:27:02.959 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 01:27:02.973 | main |  INFO | o.h.j.i.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-28 | 01:27:03.066 | main |  INFO | org.hibernate.Version | HHH000412: Hibernate Core {5.2.17.Final}
+2020-09-28 | 01:27:03.068 | main |  INFO | o.h.cfg.Environment | HHH000206: hibernate.properties not found
+2020-09-28 | 01:27:03.154 | main |  INFO | o.h.a.common.Version | HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-09-28 | 01:27:03.458 | main |  INFO | o.h.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-09-28 | 01:27:03.657 | main |  INFO | o.h.e.j.e.i.LobCreatorBuilderImpl | HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-28 | 01:27:03.659 | main |  INFO | o.h.t.BasicTypeRegistry | HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@261f359f
+2020-09-28 | 01:27:04.389 | main |  INFO | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 | 01:27:04.907 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:27:05.277 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71e9ebae: startup date [Mon Sep 28 01:26:59 BRT 2020]; root of context hierarchy
+2020-09-28 | 01:27:05.315 | main |  WARN | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 | 01:27:05.372 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/]}" onto public java.lang.String com.citizen.controller.CitizenController.index()
+2020-09-28 | 01:27:05.375 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getCitizenDetail/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.getCitizenDetail(java.lang.Long)
+2020-09-28 | 01:27:05.376 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/deleteCitizenDetail/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.citizen.controller.CitizenController.deleteCitizenDetail(java.lang.Long)
+2020-09-28 | 01:27:05.376 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/getAllCitizenDetail],methods=[GET]}" onto public io.reactivex.Single<org.springframework.http.ResponseEntity<com.citizen.rx.BaseWebResponse<java.util.List<com.citizen.entities.Citizen>>>> com.citizen.controller.CitizenController.getAllCitizenDetail(int,int)
+2020-09-28 | 01:27:05.377 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/UpdateCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.updateCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 01:27:05.378 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/createCitizen],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.citizen.entities.Citizen> com.citizen.controller.CitizenController.postCitizenDetail(com.citizen.model.CitizenModel)
+2020-09-28 | 01:27:05.383 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-28 | 01:27:05.384 | main |  INFO | o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 01:27:05.429 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:27:05.429 | main |  INFO | o.s.w.s.h.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-28 | 01:27:05.453 | main |  INFO | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in customExceptionHandler
+2020-09-28 | 01:27:06.033 | main |  INFO | o.s.b.a.e.w.EndpointLinksResolver | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 | 01:27:06.049 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 01:27:06.050 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-09-28 | 01:27:06.052 | main |  INFO | o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping | Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-28 | 01:27:06.169 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Registering beans for JMX exposure on startup
+2020-09-28 | 01:27:06.171 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-09-28 | 01:27:06.180 | main |  INFO | o.s.j.e.a.AnnotationMBeanExporter | Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-09-28 | 01:27:06.204 | main |  INFO | o.a.c.h.Http11NioProtocol | Starting ProtocolHandler ["http-nio-8080"]
+2020-09-28 | 01:27:06.216 | main |  INFO | o.a.t.u.n.NioSelectorPool | Using a shared selector for servlet write/read
+2020-09-28 | 01:27:06.241 | main |  INFO | o.s.b.w.e.t.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 | 01:27:06.245 | main |  INFO | com.citizen.Application | Started Application in 7.784 seconds (JVM running for 9.009)
+2020-09-28 | 01:27:16.172 | http-nio-8080-exec-2 |  INFO | o.a.c.c.C.[.[.[/] | Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-28 | 01:27:16.173 | http-nio-8080-exec-2 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-28 | 01:27:16.213 | http-nio-8080-exec-2 |  INFO | o.s.w.s.DispatcherServlet | FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2020-09-28 | 01:27:16.425 | http-nio-8080-exec-2 |  INFO | c.c.c.CitizenController | In UpdateCitizen
+2020-09-28 | 01:27:31.906 | http-nio-8080-exec-2 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [com.citizen.exception.CustomerGenericException: please enter CitizenID]
+2020-09-28 | 01:28:19.867 | http-nio-8080-exec-3 |  INFO | c.c.c.CitizenController | In UpdateCitizen
+2020-09-28 | 01:28:31.225 | http-nio-8080-exec-3 |  WARN | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Resolved [com.citizen.exception.CustomerGenericException: please enter CitizenID]
