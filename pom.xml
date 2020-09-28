@@ -24,7 +24,6 @@
 			<artifactId>rxjava</artifactId>
 			<version>2.2.10</version>
 		</dependency>
-		<!--IMPORTANT!!! ADD THIS DEPENDENCY TO SOLVE HttpMediaNotAcceptableException -->
 		<dependency>
 			<groupId>io.reactivex</groupId>
 			<artifactId>rxjava-reactive-streams</artifactId>
